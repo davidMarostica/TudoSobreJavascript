@@ -5,7 +5,7 @@ console.log(lista);
 
 console.log(typeof lista);
 
-const itens = ["Matheus", true, 2, 4.12];
+const itens = ["David", true, 2, 4.12];
 
 console.log(itens);
 
@@ -24,7 +24,7 @@ const numbers = [5, 12, 4, 22];
 console.log(numbers.length);
 console.log(numbers["length"]);
 
-const myName = "Matheus";
+const myName = "David";
 
 console.log(myName.length);
 
@@ -45,7 +45,7 @@ console.log(text.indexOf("g"));
 
 // 5 - Objetos
 const person = {
-  name: "Matheus",
+  name: "David",
   age: 31,
   job: "Programador",
 };
@@ -99,7 +99,7 @@ console.log(Object.entries(obj));
 
 // 9 - Mutação
 const a = {
-  name: "Matheus",
+  name: "David",
 };
 
 const b = a;
@@ -119,7 +119,7 @@ console.log(a);
 console.log(b);
 
 // 10 - loop em array
-const users = ["Matheus", "João", "Pedro", "Miguel"];
+const users = ["David", "João", "Pedro", "Miguel"];
 
 for (let i = 0; i < users.length; i++) {
   console.log(`Listando usuário: ${users[i]}`);
@@ -303,8 +303,8 @@ console.log(somaInfinita2(1, 2, 3, 4, 5, 6, 7, 7, 8, 9));
 
 // 25 - destructuring objetos
 const userDetails = {
-  firstName: "Matheus",
-  lastName: "Battisti",
+  firstName: "David",
+  lastName: "Marostica",
   job: "Programador",
 };
 
@@ -326,7 +326,7 @@ console.log(veiculoA, veiculoB, veiculoC);
 
 // 27 - json
 const myJson =
-  '{"name": "Matheus","age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+  '{"name": "David","age": 42, "skills": ["Java", "JavaScript", "Python"]}';
 
 // 28 - json para objeto e objeto para json
 const myObject = JSON.parse(myJson);
@@ -335,7 +335,7 @@ console.log(myObject);
 
 // json invalido
 const badJson =
-  '{"name": Matheus,"age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+  '{"name": David,"age": 42, "skills": ["Java", "JavaScript", "Python"]}';
 
 // const myBadObject = JSON.parse(badJson);
 myObject.isOpenToWork = true;
