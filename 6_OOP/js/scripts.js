@@ -160,7 +160,7 @@ class Humano {
   }
 }
 
-const David = new Humano("David", 31);
+const David = new Humano("David", 42);
 
 console.log(David);
 
